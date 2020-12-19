@@ -433,7 +433,7 @@ display:none;
 .gtco-features .col-lg-8 .card h3 {
   font-family: "Lato-Regular";
   font-size: 24px;
-  color: #1d3ede;
+  color: black;
 }
 .gtco-features .col-lg-8 .card p {
   font-size: 16px;
@@ -1109,3 +1109,51 @@ color: rgb(154,235,166);
   text-align: left;
 }
 /************************/
+#bh1 {
+  background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+  background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+  background-image: -ms-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+  font-size: 18px;
+  font-family: "OpenSans-Semibold";
+  color: #fff;
+  border-radius: 50px;
+  padding: 5px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-right: 5px;
+  text-decoration: none !important;
+}
+
+.bh2 {
+  background: #fff;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  color: #37eaf9;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 15px;
+}
+#bh1:hover {
+  
+  color: black;
+
+}
+.box3{
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .box1{
+    margin: 10px;
+  }
+  .i1{
+    width: 100px;
+  }
+  .box3{
+    text-align: left;
+  }
+  .bt1{
+   font-size: 10px;
+    }
+}
