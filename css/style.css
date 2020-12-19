@@ -1048,3 +1048,64 @@ p {
 html .mt30 {
     margin-top: 30px;
 }
+.work-category{
+margin-top: 90px;
+}
+/*********************************banner************************************************/
+
+
+.bc-banner {
+  position:relative;
+  border:1px solid #ccc;
+  overflow:hidden;
+  background-color:#625a58;
+}
+.bc-banner a {
+  text-decoration:none;
+  color:#fff;
+}
+.bc-banner a:hover {
+  opacity:0.8;
+}
+.bc-banner-header {
+  background-color:#fff;
+  position:relative;
+  z-index:2;
+  padding:1rem;
+}
+
+.bc-banner-body {
+  position:relative;
+  z-index:2;
+  padding:2rem;
+}
+.bc-banner .bc-banner-cover {
+  position:absolute;
+  opacity: 0.3;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  object-fit: cover;
+  top:0;
+  z-index:1;
+  height: 100%;
+  width: 100%;
+}
+/****************************************************************************************/
+.box1{
+  margin: 80px;
+}
+.i1{
+  width: 300px;
+}
+.box2{
+  border-radius: 30px;
+  max-width: 100%;
+ 
+ 
+  border: 2px solid #4098B7;
+}
+.bt1{
+color: rgb(154,235,166);
+  margin-top: 50px;
+  text-align: left;
+}
+/************************/
