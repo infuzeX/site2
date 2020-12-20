@@ -1047,6 +1047,7 @@ p {
 }
 html .mt30 {
     margin-top: 30px;
+    margin-left: -15px;
 }
 .work-category{
 margin-top: 90px;
@@ -1185,6 +1186,7 @@ border: none;
     padding-right: 5px;
     text-decoration: none !important;
   }
+  
   
 }
 /*********************************************************/
