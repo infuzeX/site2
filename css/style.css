@@ -1098,10 +1098,15 @@ margin-top: 90px;
 }
 .box2{
   border-radius: 30px;
+ display: flex;
+ justify-content: center;
  
- 
+ flex-wrap: wrap;
  
   border: 2px solid #4098B7;
+}
+.box4{
+  align-items:flex-start ;
 }
 .bt1{
 color: rgb(154,235,166);
@@ -1151,7 +1156,7 @@ color: rgb(154,235,166);
     width: 100px;
   }
   .box3{
-    text-align: left;
+  
   }
   .bt1{
    font-size: 10px;
