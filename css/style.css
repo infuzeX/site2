@@ -1092,7 +1092,7 @@ margin-top: 90px;
 }
 /****************************************************************************************/
 .box1{
-  margin: 80px;
+  margin: 150px;
   
 }
 .i1{
@@ -1151,6 +1151,7 @@ border: none;
 }
 .box3{
   text-align: center;
+  
 }
 @media only screen and (max-width: 600px) {
   .box4{
