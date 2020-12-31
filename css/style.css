@@ -244,10 +244,12 @@ transition: 0.4s;
 }
 
 .gtco-banner-area {
+  padding-left: 50px;
   margin-top: 20px;
   min-height: 500px;
 }
 .gtco-banner-area h1 {
+  
   font-family: "Lato-Light";
   font-size: 48px;
   color: #000000;
