@@ -34,5 +34,5 @@ function showMsg(type, msg) {
         SUCCESS:'green',
         FAILED:'orangered'
     } [type];
-    status.innerHTMl = `<p style="color:${color}">${msg}</p>`
+    status.innerHTML = `<p style="color:${color}">${msg}</p>`
 }
