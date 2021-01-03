@@ -5,7 +5,7 @@
 <!-- Mirrored from www.shreethemes.in/landrick/layouts/page-invoice.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Apr 2020 12:22:01 GMT -->
 <head>
         <meta charset="utf-8" />
-        <title>Infuzex hosting</title>
+        <title>Infuzex</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Premium Bootstrap 4 Landing Page Template" />
         <meta name="keywords" content="bootstrap 4, premium, marketing, multipurpose" />
@@ -56,7 +56,7 @@
             </div><!--end container-->
         </header><!--end header-->
         <!-- Navbar End -->
-            <center><h2>infuzex Hosting clients</h2></center>
+            <center><h2>Infuzex Clients</h2></center>
         
         <!-- Invoice Start -->
         <section class="bg-invoice bg-light">
@@ -131,7 +131,7 @@
                 <div class="row align-items-center">
                     <div class="col-sm-6">
                         <div class="text-sm-left">
-                            <p class="mb-0">© 2020-21 Infuzex Hosting. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="http://www.padhhigh.com/" target="_blank" class="text-success">PadhHigh</a>.</p>
+                            <p class="mb-0"></p>
                         </div>
                     </div>
                 </div><!--end row-->
