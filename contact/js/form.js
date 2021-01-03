@@ -1,11 +1,12 @@
 const xhr = new XMLHttpRequest();
 const status = document.querySelector('.status');
 const form = document.querySelector('.my-form');
+let inputs = [];
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     const data = {};
-    const inputs = [...e.target.elements];
+    inputs = [...e.target.elements];
     inputs.forEach(input => {
         if (input.name) data[input.name] = input.value;
     })
@@ -26,6 +27,10 @@ xhr.onload = function() {
     }else{
         showMsg('FAILED', res.message);
     }
+}
+
+function clearField(inputs) {
+  inputs.forEach(input => input.value = " " );
 }
 
 function showMsg(type, msg) {
