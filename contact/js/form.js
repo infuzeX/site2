@@ -24,6 +24,7 @@ xhr.onload = function() {
     const res = JSON.parse(this.responseText);
     if(res.success) {
         showMsg('SUCCESS',res.message);
+        clearField(inputs);
     }else{
         showMsg('FAILED', res.message);
     }
