@@ -1,5 +1,5 @@
 const xhr = new XMLHttpRequest();
-const status = document.getElementById('status');
+const status = document.querySelector('.status');
 const form = document.querySelector('.my-form');
 
 form.addEventListener('submit', (e) => {
