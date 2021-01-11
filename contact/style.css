@@ -103,6 +103,24 @@ body {
     transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
 }
 
+.my-form select:hover,
+.my-form input:hover,
+.my-form textarea:hover,
+.my-form button:hover {
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+  width: 100%;
+
+  line-height: 1.5;
+  padding: 15px 10px;
+  border: 1px solid transparent;
+  color: black;
+  
+  transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
+    transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+
+
 .my-form textarea {
   height: 170px;
 }
